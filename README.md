@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Lennox Lab Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+***Read this prior to making contributions***
 
-## Available Scripts
+To see the site locally run the following commands after cloning:
+```
+npm install
+```
+```
+npm start
+```
 
-In the project directory, you can run:
+## Instructions for Group Contribution
 
-### `npm start`
+### 1. Clone Repository
+```
+git clone https://github.com/robertlennox/movement-ecology.git
+```
+```
+cd movement-ecology
+```
+### 2. Create and Switch to a New Branch with Your Name
+```
+git checkout -b <your-name>
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 3. Add Your Contributions
+Refer to [Adding a Project](#adding-a-project) or [Adding a Person](#adding-a-person) for clean file placement and code formatting 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 4. Add and Commit
+In the same terminal you created and switched to a new branch:
+```
+git add .
+```
+```
+git commit -m "Your contributions"
+```
 
-### `npm test`
+### 5. Merge Your Changes with Main
+In this step you are switching back to main, pulling any new updates if applicable, and merging your changes
+```
+git checkout main
+```
+```
+git pull origin main
+```
+```
+git merge <your-branch-name>
+```
+Any conflicts will show up in this step. Most cases for this project, you will accept changes from BOTH your branch and main.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 6. Push
+```
+git push origin main
+```
+## Adding A Project
+Adding a project is handled through the ```src/assets/projects``` folder and ```src/data/projects.js```
 
-### `npm run build`
+### 1. Create a new project folder under ```src/assets/projects```
+### 2. Place all image and video media in this new folder
+### 3. Follow Instructions in ```src/data/projects.js```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Adding A Person
+Adding a person is handled through the ```src/assets/images/people``` folder and ```src/data/people.js```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 1. Add your headshot into ```src/assets/images/people```
+### 2. Follow instructions in ```src/data/people.js```

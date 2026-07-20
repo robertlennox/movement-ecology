@@ -1,13 +1,35 @@
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
+import Home from './pages/Home';
+import OurGroup from './pages/OurGroup';
+import Projects from './pages/Projects';
+import ProjectDetail from './pages/ProjectDetail';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <BrowserRouter>
+      <ScrollToTop />
+      <NavBar />
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/our-group" element={<OurGroup />} />
+          
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/by/:personSlug" element={<Projects />} />
+          <Route path="/projects/:projectSlug" element={<ProjectDetail />} />
+          
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
 
-      </header>
-    </div>
-  );
+          <Route path="*" element={<Home />} />
+        </Routes>
+      </main>
+      <Footer />
+    </BrowserRouter>
+  )
 }
-
-export default App;
