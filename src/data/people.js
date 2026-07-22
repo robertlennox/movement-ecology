@@ -28,8 +28,17 @@ export const people = [
         status: "alumni",
         photo: require("../assets/images/people/pelley.jpg"),
         bio: "This is an example paragraph too."
+    },
+
+      {
+        name: "Robert Lennox",
+        role: "Professor",
+        status: "current",
+        photo: require("../assets/images/people/pelley.jpg"),
+        bio: "Professor"
     }
 ];
 
 export const currentMembers = people.filter((p) => p.status === 'current');
 export const alumni = people.filter((p) => p.status === 'alumni');
+
