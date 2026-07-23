@@ -35,18 +35,18 @@ export const people = [
     },
 
     {
-        name: "Hugo Flavio",
+        name: "Hugo Flávio",
         contact: "hugo@dal.ca",
         role: "Research Associate",
         status: "current",
         photo: require("../assets/images/people/hugo.jpg"),
-        bio: "Professor"
+        bio: "Hugo’s research combines ecology, physiology, and technology to better understand aquatic ecosystems and inform their management. His work focuses the impacts that environmental and anthropocentric stressors have on the movement, behaviour, and health of fish. At the MER group, Hugo contributes to student mentoring, leads lab-based experiments, and helps coordinating fieldwork teams. Through his Adjunct Faculty status at Dalhousie, Hugo also contributes by attracting additional funding for projects. Recent projects span from exploring the sub-lethal impacts of tagging in fish, to understanding the impacts of pesticide applications on non-target aquatic species. Other interests include 3D design, 3D printing, electronics, and software development (e.g., trackyverse.org). If you want to know more about Hugo’s career and work, head over to his website at hugoflavio.com!"
     },
 
     {
         name: "Emma Lunzmann-Cooke",
         contact: "emmallcooke@gmail.com",
-        role: "Post Doc",
+        role: "Post Doctoral Scholar",
         status: "current",
         photo: require("../assets/images/people/emma.jpg"),
         bio: "Professor"
@@ -55,7 +55,7 @@ export const people = [
     {
         name: "Jena Edwards",
                 contact: "jena@dal.ca",
-        role: "Post Doc",
+        role: "Post Doctoral Fellow",
         status: "current",
         photo: require("../assets/images/people/rob-7.jpg"),
         bio: "Professor"
@@ -65,7 +65,7 @@ export const people = [
         name: "Ben Hlina",
                 contact: "ben@dal.ca",
 
-        role: "Post Doc",
+        role: "Post Doctoral Fellow",
         status: "current",
         photo: require("../assets/images/people/rob-7.jpg"),
         bio: "Professor"
@@ -74,7 +74,7 @@ export const people = [
     {
         name: "Morgan Piczak",
                 contact: "morgan@dal.ca",
-        role: "Post Doc",
+        role: "Post Doctoral Scholar",
         status: "alumni",
         photo: require("../assets/images/people/morgan.jpg"),
         bio: "Professor"
@@ -122,8 +122,8 @@ export const people = [
                 contact: "",
         role: "MSc student",
         status: "current",
-        photo: require("../assets/images/people/rob-7.jpg"),
-        bio: "Professor"
+        photo: require("../assets/images/people/danielle.jpg"),
+        bio: "Danielle graduated from Dalhousie with a BSc in Biology and Environment, Sustainability and Society. Her research interests include marine ecology, population dynamics, life history and ecosystem-based fisheries management. Danielle is now completing an MSc at Dalhousie and Fisheries and Oceans Canada with MER, Dr. Bowlby and Dr. David Keith. For her MSc, Danielle is developing a multispecies model of 15 demersal fish stocks on the Eastern Scotian Shelf. Danielle is using this model to investigate how the modelled community will respond to different fishing strategies, as well as the effects of climate change on future community dynamics."
     },
 
     {
@@ -176,7 +176,7 @@ export const people = [
         role: "Undergraduate research student",
         status: "current",
         photo: require("../assets/images/people/rob-7.jpg"),
-        bio: "Professor"
+        bio: "Ben Wetherell is a 3rd year student at Dalhousie completing his bachelor's degree in Marine Biology with a certificate in aquaculture. He's currently working with Hugo Flávio on a variety of projects including TFM in Giant Floater mussels and Atlantic Whitefish respirometry. In addition to these projects he has been learning about and exploring 3D printing, electronics, acoustic telemetry, fish physiology, and field surgery techniques. Some of his favorite times in the lab have been constructing the recirculating system for the Whitefish experiments and early morning mackerel tagging adventures in St. Margaret's Bay and Canso, NS. Outside of work, Ben is a lover of the outdoors and being active. Particularly biking, running, and swimming! He also loves playing soccer and is the biggest board game nerd you will ever meet!",
     },
 
   {
@@ -208,6 +208,15 @@ export const people = [
         status: "alumni",
         photo: require("../assets/images/people/rob-7.jpg"),
         bio: "Professor"
+    },
+
+    {
+        name: "Paris Mastrodimitropoulos",
+        role: "MSc student",
+        status: "alumni",
+        photo: require("../assets/images/people/paris.jpeg"),
+        bio: "Paris Mastrodimitropoulos is an MSc student whose research sits at the intersection of acoustic telemetry, drone-based habitat mapping, and river restoration. Her research examines the fine-scale movement and habitat use of juvenile Atlantic salmon (Salmo salar) and brook trout (Salvelinus fontinalis) within restored river habitats in Prince Edward Island (PEI), with a particular focus on large woody debris and stream-deepening structures. By combining fine-scale tracking with high-resolution drone-based mapping, she investigates how juvenile salmonids interact with restored habitats and the environmental features that influence habitat use. Her work contributes to the evaluation of river restoration techniques and provides information to guide future habitat restoration and conservation efforts for salmonids in Prince Edward Island. Paris' work is funded by the Canada Nature Fund for Aquatic Species at Risk (Fisheries and Oceans Canada, Gulf Region)."
+
     },
      {
         name: "Anders Hoffman",

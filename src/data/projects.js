@@ -46,18 +46,18 @@ export const projects = [
         people: ["Emma Lunzmann-Cooke", "Robert Lennox"],
 
         listImage: require('../assets/projects/nunatsiavut1.jpg'),
-        bannerImage: require('../assets/projects/margaree-proj1.jpg'),
+        bannerImage: require('../assets/projects/nunatsiavut6.jpg'),
         
-        image1: require('../assets/projects/margaree-proj1.jpg'),
+        image1: require('../assets/projects/nunatsiavut2.jpg'),
         text1: "This work is occurring on the lands of the Labrador Inuit, which is co-managed according to the Labrador Inuit Land Claims Agreement. We are working with partners from the Torngat Secretariat, Nunatsiavut Government, Ocans North, and Atlantic salmon federation to better understand fish populations in freshwater and marine habitats of Nunatsiavut.",
         
-        image2: require('../assets/projects/margaree-proj2.jpg'),
+        image2: require('../assets/projects/nunatsiavut5.jpg'),
         text2: "Second block of text. Text and images swap sides each block that gets added. You can add up to 5 blocks and have colelctions up to 10. Supports video and images.",
         
         collection: [
-          require('../assets/projects/margaree-collection1.png'),
-          require('../assets/projects/margaree-collection2.jpg'),
-          require('../assets/projects/margaree-collection3.mp4'),
+          require('../assets/projects/nunatsiavut5.jpg'),
+          require('../assets/projects/nunatsiavut5.jpg'),
+          require('../assets/projects/nunatsiavut5.jpg'),
         ],
     },
 
@@ -70,7 +70,28 @@ export const projects = [
         bannerImage: require('../assets/projects/margaree-proj1.jpg'),
         
         image1: require('../assets/projects/margaree-proj1.jpg'),
-        text1: "This work is occurring on the lands of the Labrador Inuit, which is co-managed according to the Labrador Inuit Land Claims Agreement. We are working with partners from the Torngat Secretariat, Nunatsiavut Government, Ocans North, and Atlantic salmon federation to better understand fish populations in freshwater and marine habitats of Nunatsiavut.",
+        text1: "The lampricide 3-trifluoromethyl-4-nitrophenol (TFM) is widely used in the tributaries of the Laurentian Great Lakes to suppress invasive populations of sea lamprey (Petromyzon marinus). While particularly effective at killing larval sea lamprey, the TFM’s mode of action impacts all organisms that rely on mitochondria for aerobic metabolism. As such, some native species may have difficulty handling the concentrations that must be used to ensure successful control of sea lamprey. Earlier work has shown that exposure to TFM leads to stepwise increases in oxygen consumption in larval sea lamprey, and may have the potential to predict lethal concentrations without requiring traditional toxicity testing. In this project, we aim to prove that this stepwise relationship between TFM concentration and oxygen consumption also holds true for four non-target species: young-of-the-year lake sturgeon (Acipenser fulvescens), rainbow trout (Oncorhynchus mykiss), smallmouth bass (Micropterus dolomieu), and the bivalve giant floater (Pyganodon grandis).",
+        
+        image2: require('../assets/projects/margaree-proj2.jpg'),
+        text2: "Second block of text. Text and images swap sides each block that gets added. You can add up to 5 blocks and have colelctions up to 10. Supports video and images.",
+        
+        collection: [
+          require('../assets/projects/margaree-collection1.png'),
+          require('../assets/projects/margaree-collection2.jpg'),
+          require('../assets/projects/margaree-collection3.mp4'),
+        ],
+    },
+
+     {
+        name: "Understanding Atlantic whitefish physiology and development to inform future stocking and conservation",
+        date: "2026-01-01",
+        people: ["Hugo Flavio", "Ethan McCarthy", "Ben Wetherell", "Robert Lennox"],
+
+        listImage: require('../assets/projects/nunatsiavut1.jpg'),
+        bannerImage: require('../assets/projects/margaree-proj1.jpg'),
+        
+        image1: require('../assets/projects/margaree-proj1.jpg'),
+        text1: "Atlantic whitefish (Coregonus huntsmani) is Nova Scotia’s most imperilled fish species, and is certainly one of the most threatened species in Canada. A key priority in the Recovery Strategy for Atlantic whitefish is to achieve stability in the current population. Broad strategies for recovery include 1) conserving, protecting and managing the species and its habitat and 2) addressing knowledge gaps relating to the species and its habitat. The current state of knowledge about the basic biology, ecology, and physiology of Atlantic whitefish is limited, as is knowledge about how best to address current and emergent threats to survival.  Knowledge of the optimal conditions for the deposition and development of eggs, as well as the growth of larvae will be extremely valuable to future recovery and management decisions. This project will combine in-situ and laboratory approaches to vastly expand our understanding of the factors influencing Atlantic whitefish egg and larvae success, therefore advancing both the conservation of natural nursery habitats and improving the supportive breeding program.",
         
         image2: require('../assets/projects/margaree-proj2.jpg'),
         text2: "Second block of text. Text and images swap sides each block that gets added. You can add up to 5 blocks and have colelctions up to 10. Supports video and images.",
@@ -194,7 +215,7 @@ export const projects = [
         people: ["Natalie Koopman", "Josh Roland", "Oscar Notman-Grobler", "Morgan Piczak", "Emma Lunzmann-Cooke", "Robert Lennox"],
 
         listImage: require('../assets/projects/cb2.JPG'),
-        bannerImage: require('../assets/projects/cb4.JPG'),
+        bannerImage: require('../assets/projects/cb7.jpg'),
         
         image1: require('../assets/projects/cb5.JPG'),
         text1: "",
