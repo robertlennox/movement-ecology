@@ -39,24 +39,176 @@ TEMPLATE:
 */
 
 export const projects = [
-    {
-        name: "Margaree Example",
-        date: "2026-01-01",
-        people: ["Boyd Pelley", "Robert Lennox"],
 
-        listImage: require('../assets/projects/margaree-example/margaree-proj1.jpg'),
-        bannerImage: require('../assets/projects/margaree-example/margaree-proj1.jpg'),
+     {
+        name: "The northern advantage of fish in Nunatsiavut",
+        date: "2026-01-01",
+        people: ["Emma Lunzmann-Cooke", "Robert Lennox"],
+
+        listImage: require('../assets/projects/nunatsiavut1.jpg'),
+        bannerImage: require('../assets/projects/margaree-proj1.jpg'),
         
-        image1: require('../assets/projects/margaree-example/margaree-proj1.jpg'),
-        text1: "Opening paragraph for this project. This block renders with the image on the left side of the screen and this text on the right side.",
+        image1: require('../assets/projects/margaree-proj1.jpg'),
+        text1: "This work is occurring on the lands of the Labrador Inuit, which is co-managed according to the Labrador Inuit Land Claims Agreement. We are working with partners from the Torngat Secretariat, Nunatsiavut Government, Ocans North, and Atlantic salmon federation to better understand fish populations in freshwater and marine habitats of Nunatsiavut.",
         
-        image2: require('../assets/projects/margaree-example/margaree-proj2.jpg'),
+        image2: require('../assets/projects/margaree-proj2.jpg'),
         text2: "Second block of text. Text and images swap sides each block that gets added. You can add up to 5 blocks and have colelctions up to 10. Supports video and images.",
         
         collection: [
-          require('../assets/projects/margaree-example/margaree-collection1.png'),
-          require('../assets/projects/margaree-example/margaree-collection2.jpg'),
-          require('../assets/projects/margaree-example/margaree-collection3.mp4'),
+          require('../assets/projects/margaree-collection1.png'),
+          require('../assets/projects/margaree-collection2.jpg'),
+          require('../assets/projects/margaree-collection3.mp4'),
+        ],
+    },
+
+         {
+        name: "Impacts of lampricides on non-target Great Lakes species",
+        date: "2026-01-01",
+        people: ["Hugo Flavio", "Aiden Moore", "Melina Gobel"],
+
+        listImage: require('../assets/projects/nunatsiavut1.jpg'),
+        bannerImage: require('../assets/projects/margaree-proj1.jpg'),
+        
+        image1: require('../assets/projects/margaree-proj1.jpg'),
+        text1: "This work is occurring on the lands of the Labrador Inuit, which is co-managed according to the Labrador Inuit Land Claims Agreement. We are working with partners from the Torngat Secretariat, Nunatsiavut Government, Ocans North, and Atlantic salmon federation to better understand fish populations in freshwater and marine habitats of Nunatsiavut.",
+        
+        image2: require('../assets/projects/margaree-proj2.jpg'),
+        text2: "Second block of text. Text and images swap sides each block that gets added. You can add up to 5 blocks and have colelctions up to 10. Supports video and images.",
+        
+        collection: [
+          require('../assets/projects/margaree-collection1.png'),
+          require('../assets/projects/margaree-collection2.jpg'),
+          require('../assets/projects/margaree-collection3.mp4'),
+        ],
+    },
+
+    {
+        name: "Atlantic halibut tracking project",
+        date: "2026-01-01",
+        people: ["Jena Edwards", "Robert Lennox"],
+
+        listImage: require('../assets/projects/nunatsiavut1.jpg'),
+        bannerImage: require('../assets/projects/margaree-proj1.jpg'),
+        
+        image1: require('../assets/projects/margaree-proj1.jpg'),
+        text1: "Opening paragraph for this project. This block renders with the image on the left side of the screen and this text on the right side.",
+        
+        image2: require('../assets/projects/margaree-proj2.jpg'),
+        text2: "Second block of text. Text and images swap sides each block that gets added. You can add up to 5 blocks and have colelctions up to 10. Supports video and images.",
+        
+        collection: [
+          require('../assets/projects/margaree-collection1.png'),
+          require('../assets/projects/margaree-collection2.jpg'),
+          require('../assets/projects/margaree-collection3.mp4'),
+        ],
+    },
+
+    {
+        name: "Apoqnmatulti'k: We help each other",
+        date: "2026-01-01",
+        people: ["Levi Denny", "Marin Marsala", "Caitlin Bate", "Robert Lennox"],
+
+        listImage: require('../assets/projects/debert1.jpg'),
+        bannerImage: require('../assets/projects/debert2.jpg'),
+        
+        image1: require('../assets/projects/debert3.jpg'),
+        text1: "",
+        
+        image2: require('../assets/projects/debert2.jpg'),
+        text2: "",
+        
+        collection: [
+          require('../assets/projects/debert1.jpg'),
+          require('../assets/projects/debert2.jpg'),
+          require('../assets/projects/debert3.jpg'),
+        ],
+    },
+
+
+    {
+        name: "Turning the tide for Endangered Inner Bay of Fundy Atlantic salmon",
+        date: "2026-01-01",
+        people: ["Imogen Bellinger", "Robert Lennox"],
+
+        listImage: require('../assets/projects/debert1.jpg'),
+        bannerImage: require('../assets/projects/debert2.jpg'),
+        
+        image1: require('../assets/projects/debert3.jpg'),
+        text1: "",
+        
+        image2: require('../assets/projects/debert2.jpg'),
+        text2: "",
+        
+        collection: [
+          require('../assets/projects/debert1.jpg'),
+          require('../assets/projects/debert2.jpg'),
+          require('../assets/projects/debert3.jpg'),
+        ],
+    },
+
+       {
+        name: "Atlantic mackerel tracking program",
+        date: "2026-01-01",
+        people: ["Ava Sergio", "Morgan Piczak", "Robert Lennox"],
+
+        listImage: require('../assets/projects/mack1.jpg'),
+        bannerImage: require('../assets/projects/mack2.jpg'),
+        
+        image1: require('../assets/projects/mack3.jpg'),
+        text1: "Atlantic mackerel is one of the iconic species of Atlantic Canada. For many people, mackerel is quintessential to life on the shores of Nova Scotia and mackerel are used for food by people around the coast and for bait by lobster and tuna fishers. The mackerel fishery was closed in 2022 and since then we have been working with DFO to use acoustic telemetry to better understand the movements of this important species in waters of Atlantic Canada.",
+        
+        image2: require('../assets/projects/mack2.jpg'),
+        text2: "",
+        
+        collection: [
+          require('../assets/projects/mack2.jpg'),
+          require('../assets/projects/mack3.jpg'),
+          require('../assets/projects/mack1.jpg'),
+        ],
+    },
+
+        {
+        name: "Nova Scotia brook trout population ecology",
+        date: "2026-01-01",
+        people: ["Anders Hoffmann", "Jena Edwards", "Emma Lunzmann-Cooke", "Robert Lennox"],
+
+        listImage: require('../assets/projects/brook.jpg'),
+        bannerImage: require('../assets/projects/brook.jpg'),
+        
+        image1: require('../assets/projects/brook.jpg'),
+        text1: "",
+        
+        image2: require('../assets/projects/brook.jpg'),
+        text2: "",
+        
+        collection: [
+          require('../assets/projects/brook.jpg'),
+          require('../assets/projects/brook.jpg'),
+          require('../assets/projects/brook.jpg'),
+        ],
+    },
+
+           {
+        name: "Atlantic salmon in the Cape Breton Highlands",
+        date: "2026-01-01",
+        people: ["Natalie Koopman", "Josh Roland", "Oscar Notman-Grobler", "Morgan Piczak", "Emma Lunzmann-Cooke", "Robert Lennox"],
+
+        listImage: require('../assets/projects/cb2.JPG'),
+        bannerImage: require('../assets/projects/cb4.JPG'),
+        
+        image1: require('../assets/projects/cb5.JPG'),
+        text1: "",
+        
+        image2: require('../assets/projects/cb6.JPG'),
+        text2: "",
+        
+        collection: [
+          require('../assets/projects/cb.JPG'),
+          require('../assets/projects/cb2.JPG'),
+          require('../assets/projects/cb3.JPG'),
         ],
     },
 ]
+
+
+

@@ -17,11 +17,11 @@ export default function HeroVideo() {
 
       <div className='hero__content px-3'>
         <p className='mb-0'>
-          The Lennox Lab is a multidisciplinary lab with marine and movement 
-          ecology conservation focuses across Atlantic Canada. 
+          The Movement and Ecophysiology Research Group (MER) is a multidisciplinary animal health and performance research group focused on marine and freshwater 
+          ecology. 
         </p>
         <p className='mt-3 mb-0 fw-bold'>
-          Based in Halifax, Nova Scotia at Dalhousie University
+          Based in the Department of Biology at Dalhousie University in Halifax, Nova Scotia at Dalhousie University. Dalhousie University is in Mi'kma'ki, the traditional and unceded territory of the Mi'kmaq people.
         </p>
       </div>
 
