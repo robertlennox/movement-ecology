@@ -28,9 +28,9 @@ export const people = [
       {
         name: "Robert Lennox",
                 contact: "lennox@dal.ca",
-        role: "Professor",
+        role: "Principal Investigator",
         status: "current",
-        photo: require("../assets/images/people/rob-7.jpg"),
+        photo: require("../assets/images/people/rob-2.jpg"),
         bio: "Professor"
     },
 
@@ -49,7 +49,7 @@ export const people = [
         role: "Post Doctoral Scholar",
         status: "current",
         photo: require("../assets/images/people/emma.jpg"),
-        bio: "Professor"
+        bio: "Emma is a Postdoctoral Fellow and Weston Family Northern Scholar at Dalhousie University, where she studies fish movement ecology and fisheries sustainability using acoustic telemetry. Her current research focuses on the seasonal movements, survival, and predator–prey dynamics of Atlantic cod and capelin in Nunatsiavut. She is also involved in research on the migration and movement ecology of striped bass throughout the Gulf of St. Lawrence. Emma’s previous research has explored a range of questions in fish ecology and fisheries management. During her BSc at Carleton University, she investigated whether fish sanctuaries could influence the evolution of boldness in largemouth bass populations. Her MSc at Memorial University examined the factors influencing Atlantic cod recruitment in Newfoundland. During her PhD at the University of British Columbia, she studied post-release mortality in coho salmon caught in the marine recreational fishery, contributing to improved stock assessment and science-based fishing practices for anglers. Across her research, Emma is interested in collaborative approaches that bring together scientific knowledge, local knowledge, and the priorities of communities and fisheries managers to support the conservation and sustainable management of wild fish populations."
     },
 
     {
@@ -57,8 +57,8 @@ export const people = [
                 contact: "jena@dal.ca",
         role: "Post Doctoral Fellow",
         status: "current",
-        photo: require("../assets/images/people/rob-7.jpg"),
-        bio: "Professor"
+        photo: require("../assets/images/people/jena.jpg"),
+        bio: "Dr. Jena Edwards is a postdoctoral fellow who employs acoustic and satellite telemetry to study the movement ecology of demersal marine fishes including halibut, skates, and deepwater sharks. Growing up on Canada’s Atlantic coast fostered Jena’s lifelong connection to the ocean, but it was her BSc in Marine Biology at Dalhousie University that sparked a passion for understanding animal movement. An internship with Ocean Tracking Network (OTN) allowed her to combine her newfound interest in biotelemetry with an ongoing fascination with the deep sea, paving the way for an MSc investigating the movement ecology of Greenland sharks in Arctic Canada's Baffin Bay. From Arctic depths to temperate shallows, she then moved to the Netherlands to pursue a PhD at the Royal Netherlands Institute for Sea Research (NIOZ), where she studied the seasonal migrations, habitat use, and environmental drivers of fish migration in the Dutch Wadden Sea. Returning to Dalhousie in 2025, Jena now investigates the large-scale movements, migration ontogeny, and inshore residency of Atlantic halibut, supporting sustainable fisheries management and marine conservation in Maritime waters."
     },
 
     {
@@ -67,7 +67,7 @@ export const people = [
 
         role: "Post Doctoral Fellow",
         status: "current",
-        photo: require("../assets/images/people/rob-7.jpg"),
+        photo: require("../assets/images/people/benh.jpeg"),
         bio: "Professor"
     },
 
@@ -77,7 +77,7 @@ export const people = [
         role: "Post Doctoral Scholar",
         status: "alumni",
         photo: require("../assets/images/people/morgan.jpg"),
-        bio: "Professor"
+        bio: "Dr. Piczak is now a professor at the University of British Columbia in the Faculty of Forestry."
     },
 
     {
@@ -85,8 +85,8 @@ export const people = [
                 contact: "",
         role: "PhD Student",
         status: "current",
-        photo: require("../assets/images/people/rob-7.jpg"),
-        bio: "Professor"
+        photo: require("../assets/images/people/imogen.jpg"),
+        bio: "Imogen is a PhD student in the Movement and Ecophysiology Research Group whose research interests include fish ecology, ecophysiology, and conservation. Her PhD research focuses on the movement, habitat use, and marine survival of the Endangered inner Bay of Fundy (iBoF) Atlantic salmon (Salmo salar), one of Canada's most imperilled salmon populations. Her research aims to identify the drivers of population decline and the conditions necessary for recovery by combining acoustic telemetry and oceanographic data to examine how environmental conditions, predation, and climate change influence the marine ecology and survival of Atlantic salmon smolts and kelts. Prior to joining the lab, Imogen completed an Honours thesis at Trent University investigating the effects of water oxygen saturation and aerobic exercise on the thermal limits and metabolism of rainbow trout (Oncorhynchus mykiss). She then completed a master's degree at the University of Winnipeg, where she examined the effects of elevated carbon dioxide and warming temperatures on the physiological and behavioural responses of juvenile Arctic charr (Salvelinus alpinus) and brook trout (Salvelinus fontinalis). Across her research, a central focus has been understanding how environmental conditions influence fishes, with the goal of informing conservation."
     },
 
      {
@@ -95,8 +95,7 @@ export const people = [
         role: "PhD Student",
         status: "current",
         photo: require("../assets/images/people/ava.jpeg"),
-        bio: "Ava is a PhD student co-supervised by Dr. Morgan Piczak and Dr. Robert Lennox, studying the movement ecology of Atlantic mackerel across the Northwest Atlantic using acoustic telemetry. Her multi-year study of more than 1,500 tagged fish represents the largest acoustic telemetry dataset ever assembled for this species. Her research aims to identify spawning habitat and overwintering sites, improve estimates of natural mortality, and compare migration routes and migration phenology across tagging locations in Nova Scotia, Prince Edward Island, and Newfoundland. She will also investigate how annual variation in resource availability influences shifts in Atlantic mackerel distribution across the Northwest Atlantic. By advancing our understanding of Atlantic mackerel movement ecology, her work will inform stock assessments and support sustainable fisheries management. Ava’s work is supported by the University of British Columbia Four Year Doctoral Fellowship (4YF) and the NSERC Canada Graduate Research Scholarship - Doctoral (CGRS D)."
-    },
+        bio: "Ava is a PhD student co-supervised by Dr. Morgan Piczak and Dr. Robert Lennox, studying the movement ecology of Atlantic mackerel across the northwest Atlantic Ocean using acoustic telemetry. Her research aims to investigate the spawning habitat, overwintering sites, and natural mortality of Atlantic mackerel from 2024-2026 across tagging sites in Nova Scotia, Prince Edward Island, and Newfoundland. She is particularly interested in marine megafauna movement ecology and how annual and climate-driven variations in resource availability influences shifts in the distribution of migratory species. Ava completed both her MSc and BSc at Dalhousie University, where she used acoustic telemetry to model the habitat use of Critically Endangered Atlantic whitefish and invasive predators for her master’s research under Dr. Lennox’s supervision. Ava’s PhD research is supported by the University of British Columbia Four Year Doctoral Fellowship (4YF) and the NSERC Canada Graduate Research Scholarship - Doctoral (CGRS D)."    },
 
         {
         name: "Levi Denny",
@@ -112,9 +111,9 @@ export const people = [
         name: "Marin Marsala",
                 contact: "",
         role: "MSc student",
-        status: "current",
-        photo: require("../assets/images/people/rob-7.jpg"),
-        bio: "Professor"
+        bio: "Marin is an MSc student at Dalhousie University whose research involves learning to pair Etuaptmumk (Two-Eyed Seeing) and acoustic telemetry to understand the out-migration of post-spawning Kaspelaw (Gaspereau) in the Pitu’pa’q (Bras d’Or Lake), a culturally significant estuary in Mi’kma’ki (Nova Scotia). As part of the collaborative Apoqnmatulti’k project, her work investigates the space-use, migratory corridors, and ocean movements of four Kaspelaw spawning populations, guided by values of co-produced research and shared knowledge. During her BSc at Dalhousie University, she completed a minor in Statistics, was involved in eelgrass restoration events with local Mi’kmaw communities hosted by the Community Eelgrass Restoration Initiative, and investigated the use of Baited Remote Underwater Video (BRUV) cameras to assess species richness, abundance, and composition across Nova Scotian eelgrass meadows. Marin’s research interests combine spatial and statistical ecology with collaborative partnerships and multiple ways of knowing to enhance the conservation and stewardship of marine fish populations. In her free time, Marin enjoys long-distance running, hiking, and all ocean activities!",
+        photo: require("../assets/images/people/marin.jpg"),
+        status: "current"
     },
 
     {
@@ -132,16 +131,16 @@ export const people = [
         role: "MSc student",
         status: "current",
         photo: require("../assets/images/people/aiden.jpg"),
-        bio: "Professor"
+        bio: "Aiden is a MSc student researching the effects of sea lice infestation on the behaviour and predator-prey dynamics of sea-run brown trout. In particular, he is interested in the marine behaviour and migration timing of lice-infested trout, and the potential for shifts in estuarine predator-prey dynamics due to sea lice infestation. His first research experience was with insects where he worked with ticks and moths investigating disease prevalence, climate change response, and neurophysiology. He joined the Movement and Ecophysiology Research Group for his honours project which used respirometry to understand the effects of lampricides on the oxygen consumption of non-target species of the Laurentian Great Lakes. In his spare time, Aiden likes to get outdoors and fish, hike, and play sports."
     },
 
     {
-        name: "Melina Gobel",
+        name: "Melina Göbel",
                 contact: "",
         role: "MSc student",
         status: "current",
         photo: require("../assets/images/people/rob-7.jpg"),
-        bio: "Professor"
+        bio: "Melina is a MSc student in the Movement and Ecophysiology Research Group (MER), where she studies the physiology and movement ecology of fishes with a goal of informing sustainable fisheries management and conservation. Her master’s research investigates the multi-year spatial and temporal movements of striped bass (Morone saxatilis) fitted with acoustic tags in the Miramichi River and the southern Gulf of St. Lawrence (sGSL). Her project is complemented by blood sampling, which will enable genetic analyses of the pathogens encountered by striped bass. Because the spatiotemporal movements of striped bass remain poorly understood, Melina aims to address these knowledge gaps to support the effective management of the sGSL striped bass population. Melina’s interest in physiology was sparked during her honours project with the MER group, where she investigated the changes in oxygen consumption of non-target Great Lakes fishes exposed to TFM lampricide. This research will contribute to the sustainable use of lampricides within the Great Lakes. In her free time Melina enjoys listening to music, dancing, going to the movies, reading, hiking, and being outdoors."
     },
 
      {
@@ -167,12 +166,12 @@ export const people = [
                 contact: "",
         role: "Honours thesis student",
         status: "current",
-        photo: require("../assets/images/people/rob-7.jpg"),
-        bio: "Professor"
+        photo: require("../assets/images/people/clare.jpg"),
+        bio: "Clare is a 5th-year BSc Marine Biology student currently completing her honours with the Movement and Ecophysiology Research Group (MER). Her research interests include movement ecology, conservation biology, and acoustic surveying of marine and freshwater species. For her honours project she is studying the post-release behavioural effects of electro-immobilization and chemical anesthesia of brook trout (Salvelinus fontinalis) in Big Five Bridge Lake, Nova Scotia, using an acoustic receiver array. Throughout her undergrad she has been thoroughly involved with all things marine. She has held an executive position on the Dalhousie Association of Marine Biology Students (DAMS) and has completed co-op work terms involving photo-identification of humpback whales (Megaptera novaeangliae), genetic testing of Atlantic halibut (Hippoglossus hippoglossus), and acoustic tagging of brook trout, Atlantic mackerel (Scomber scombrus), and striped bass (Morone saxatilis). Outside of work, she loves reading, making music, hiking, swimming, and snowboarding."
     },
 
      {
-        name: "Ben Wetherell",
+        name: "Benjamin Wetherell",
         role: "Undergraduate research student",
         status: "current",
         photo: require("../assets/images/people/rob-7.jpg"),
@@ -192,7 +191,7 @@ export const people = [
         role: "MSc student",
         status: "alumni",
         photo: require("../assets/images/people/rob-7.jpg"),
-        bio: "Professor"
+        bio: "Caliyena is now a PhD student in the Marine Affairs Department at Dalhousie University."
     },
 
      {
@@ -206,8 +205,15 @@ export const people = [
         name: "Natalie Koopman",
         role: "MSc student",
         status: "alumni",
-        photo: require("../assets/images/people/rob-7.jpg"),
-        bio: "Professor"
+        photo: require("../assets/images/people/natalie.JPG"),
+        bio: "Natalie is now a PhD student at the University of New Brunswick."
+    },
+
+     {name: "Josh Roland",
+        role: "MSc",
+        status: "alumni",
+        photo: require("../assets/images/people/josh.JPG"),
+        bio: "Josh now works with Parks Canada in Highlands National Park."
     },
 
     {
@@ -223,21 +229,21 @@ export const people = [
         role: "Honours thesis student",
         status: "alumni",
         photo: require("../assets/images/people/rob-7.jpg"),
-        bio: "Professor"
+        bio: "Anders is now a MSc student with the University of British Columbia."
     },
      {
         name: "Madelyn Richardson",
         role: "Honours thesis student",
         status: "alumni",
         photo: require("../assets/images/people/rob-7.jpg"),
-        bio: "Professor"
+        bio: "Madelyn is now a Master's of Marine Management Student at Dalhousie University."
     },
      {
-        name: "Melina Gobel",
+        name: "Melina Göbel",
         role: "Honours thesis student",
         status: "alumni",
         photo: require("../assets/images/people/rob-7.jpg"),
-        bio: "Professor"
+        bio: "Melina is now completing her Master's thesis with MER group."
     },
 
          {
@@ -245,15 +251,15 @@ export const people = [
         role: "Honours thesis student",
         status: "alumni",
         photo: require("../assets/images/people/rob-7.jpg"),
-        bio: "Professor"
+        bio: "Maeve is now a John Dingle Science Intern with Ocean Tracking Network."
     },
 
          {
         name: "Aiden Moore",
         role: "Honours thesis student",
         status: "alumni",
-        photo: require("../assets/images/people/aiden.HEIC"),
-        bio: "Professor"
+        photo: require("../assets/images/people/aiden.jpg"),
+        bio: "Aiden is now completing his Master's thesis with MER group."
     },
 
          {
@@ -261,7 +267,7 @@ export const people = [
         role: "Honours thesis student",
         status: "alumni",
         photo: require("../assets/images/people/ong.jpg"),
-        bio: "Professor"
+        bio: "Oscar is now a Master's student at the University of British Columbia."
     },
 
          {
@@ -269,7 +275,7 @@ export const people = [
         role: "Honours thesis student",
         status: "alumni",
         photo: require("../assets/images/people/rob-7.jpg"),
-        bio: "Professor"
+        bio: "Caliyena subsequently completed her MSc in the MER group on Inner Bay of Fundy Atlantic salmon."
     }
 ];
 
