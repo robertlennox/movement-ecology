@@ -8,17 +8,17 @@ export default function Footer() {
       <Container>
         <Row className="gy-4">
           <Col md={5}>
-            <h6 className="mb-2">Lennox Lab</h6>
+            <h6 className="mb-2">MER Group at Dalhousie University</h6>
             <p className="small mb-0">
-              Marine and movement ecology conservation across Atlantic Canada.
+              Marine animal movement ecology and ecophysiology research across Atlantic Canada.
               Dalhousie University, Halifax, Nova Scotia.
             </p>
           </Col>
           <Col md={3}>
             <h6 className="mb-2">Explore</h6>
             <ul className="list-unstyled small mb-0">
-              <li><Link to="/our-group">Our Group</Link></li>
-              <li><Link to="/projects">Projects</Link></li>
+              <li><Link to="/our-group">Personnel</Link></li>
+              <li><Link to="/projects">Research</Link></li>
               <li><Link to="/about">About Us</Link></li>
               <li><Link to="/contact">Contact Us</Link></li>
             </ul>
@@ -35,7 +35,7 @@ export default function Footer() {
         </Row>
         <hr className="my-4" style={{ borderColor: 'rgba(255,255,255,0.2)' }} />
         <div className="small d-flex flex-column flex-md-row justify-content-between gap-2">
-          <span>© {year} Lennox Lab. All rights reserved.</span>
+          <span>© {year} Robert Lennox. All rights reserved.</span>
           <span>Movement Ecology Research Group</span>
         </div>
       </Container>

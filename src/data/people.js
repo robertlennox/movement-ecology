@@ -190,7 +190,7 @@ export const people = [
         name: "Caliyena Brown",
         role: "MSc student",
         status: "alumni",
-        photo: require("../assets/images/people/rob-7.jpg"),
+        photo: require("../assets/images/people/caliyena.png"),
         bio: "Caliyena is now a PhD student in the Marine Affairs Department at Dalhousie University."
     },
 
@@ -274,7 +274,7 @@ export const people = [
         name: "Caliyena Brown",
         role: "Honours thesis student",
         status: "alumni",
-        photo: require("../assets/images/people/rob-7.jpg"),
+        photo: require("../assets/images/people/caliyena.png"),
         bio: "Caliyena subsequently completed her MSc in the MER group on Inner Bay of Fundy Atlantic salmon."
     }
 ];

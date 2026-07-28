@@ -26,15 +26,15 @@ export default function NavBar() {
       className={`site-nav ${transparent ? 'nav-transparent' : 'nav-solid'}`}
     >
       <Container>
-        <Navbar.Brand as={NavLink} to ="/" className="nav-brand">Lennox Lab</Navbar.Brand>
+        <Navbar.Brand as={NavLink} to ="/" className="nav-brand">Movement and Ecophysiology Research Group (MER) </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="main-nav" />
 
         <Navbar.Collapse id="main-nav" className="nav-right">
           <Nav className="nav-even">
             <Nav.Link as={NavLink} to="/" end>Home</Nav.Link>
-            <Nav.Link as={NavLink} to="/our-group">Our Group</Nav.Link>
-            <Nav.Link as={NavLink} to="/projects">Projects</Nav.Link>
+            <Nav.Link as={NavLink} to="/our-group">Personnel</Nav.Link>
+            <Nav.Link as={NavLink} to="/projects">Research</Nav.Link>
             <Nav.Link as={NavLink} to="/about">About Us</Nav.Link>
             <Nav.Link as={NavLink} to="/contact">Contact Us</Nav.Link>
           </Nav>
