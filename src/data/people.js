@@ -68,7 +68,7 @@ export const people = [
         role: "Post Doctoral Fellow",
         status: "current",
         photo: require("../assets/images/people/benh.jpeg"),
-        bio: "Professor"
+        bio: "He has a wide background within fisheries science with experience ranging from fish physiology (MSc) to fisheries management and fish ecology (BSc, PhD, and Postdoctoral fellow). His current research interests are focused on understanding the drivers of spatial disparities in food webs within the Gulf of St. Lawrence, the mechanisms that influence fish movement, habitat use, and reproduction, and mid-trophic level processes in both marine and freshwater ecosystems. He also enjoys and is immersed in statistics (Bayesian and frequentist), and programming. He has taught biostatistics courses, developed R packages, Shiny apps, PostgreSQL databases, and contributed to several additional R package. When he is not working, he is often out in nature, paddling a canoe, cross country skiing, rock climbing, hiking, fishing, and backcountry camping."
     },
 
     {
@@ -102,8 +102,8 @@ export const people = [
                 contact: "",
         role: "Master's of Marine Management Student",
         status: "current",
-        photo: require("../assets/images/people/rob-7.jpg"),
-        bio: "Professor"
+        photo: require("../assets/images/people/levi.jpg"),
+        bio: "I am from Eskasoni First Nation on Cape Breton Island, Nova Scotia. I completed my undergraduate studies at Cape Breton University, earning a Bachelor of Science degree with a major in Mathematics. I am currently a candidate in the master's in marine management program. My research uses acoustic telemetry to support the development of dynamic ocean management (DOM) tools aimed to reduce gaspereau bycatch mortalities that negatively impact Mi’kmaq  gaspereau commercial fisheries in the Bras d’Or Lake, Cape Breton."
     },
 
 
@@ -148,17 +148,25 @@ export const people = [
                 contact: "",
         role: "MSc student",
         status: "current",
-        photo: require("../assets/images/people/rob-7.jpg"),
-        bio: "Professor"
+        photo: require("../assets/images/people/ulrick.jpeg"),
+        bio: "Aaron Ulrick (he/him) completed his BSc Honours in Marine Biology at Dalhousie University in 2025. His honours research utilized Baited Remote Underwater Video Systems (BRUVS) and SCUBA transect surveys to examine fish and macroinvertebrate communities across multiple habitat types in Nova Scotia’s Eastern Shore Islands. Aaron’s research interests centre on the movement and spatial ecology of marine fish, ecosystem connectivity, and the effects of human activity on marine populations. For his MSc research, Aaron is using acoustic telemetry to track anadromous Striped Bass (Morone saxatilis) throughout the Gulf of St. Lawrence region, with the ambitious goal of tagging 1,000 individuals across the population. By combining spatial data from acoustic tags with biological sampling, the project aims to build a higher-resolution understanding of Striped Bass migration, movement patterns, and population health insights that will ultimately support the conservation of the population and the species with which it interacts."
     },
+
+       {
+        name: "Sophia Harder",
+                contact: "",
+        role: "MSc student",
+        status: "current",
+        photo: require("../assets/images/people/harder.jpeg"),
+        bio: ""},
 
      {
         name: "Ethan McCarthy",
                 contact: "",
         role: "Honours thesis student",
         status: "current",
-        photo: require("../assets/images/people/rob-7.jpg"),
-        bio: "Professor"
+        photo: require("../assets/images/people/ethan.jpeg"),
+        bio: "Ethan McCarthy is an honours/co-op student in his 5th year of a BSc in Marine Biology and Ocean Sciences. His honours thesis is focused on investigating the methodology of acoustically tagging northern shortfin squid (Illex illecebrosus) and longfin inshore squid (Doryteuthis pealeii). The work will investigate post-tagging recovery by observing tag retention, survival, wound healing, and behavioural recovery to assess whether these species can be tagged in the wild. He is an avid recreational fisherman, SCUBA diver, and a highly skilled outdoorsman who has spent his whole life exploring the local Nova Scotian wilderness. His deep passion for the ocean and it's organisms was derived from spending his childhood fishing with his father in local marine and freshwater ecosystems, inspiring his desire to learn more. Outside of the lab his interests include fashion/clothing design, volleyball, reading, spending time outdoors, and of course, fishing."
     },
 
      {
@@ -198,8 +206,8 @@ export const people = [
         name: "Caitlin Bate",
         role: "MSc student",
         status: "alumni",
-        photo: require("../assets/images/people/rob-7.jpg"),
-        bio: "Professor"
+        photo: require("../assets/images/people/cb.jpg"),
+        bio: "Caitlin is now working with the Ocean Tracking Network data team."
     },
      {
         name: "Natalie Koopman",
@@ -228,8 +236,8 @@ export const people = [
         name: "Anders Hoffman",
         role: "Honours thesis student",
         status: "alumni",
-        photo: require("../assets/images/people/rob-7.jpg"),
-        bio: "Anders is now a MSc student with the University of British Columbia."
+        photo: require("../assets/images/people/anders.jpg"),
+        bio: "Anders is a former undergraduate honours student and current research technician for the movement and ecophysiology research group. His honours work focused on studying thermoregulation in sea-run brook trout in the East River of Pictou, NS. In addition to his honours research, Anders has helped with many projects and fieldwork throughout his tenure in the lab. Starting in January, Anders will begin a master’s degree at the University of British Columbia studying Eulachon movements and physiology during their spawning migration. Anders’ research interests focus on using a variety of tools to help quantify and understand aquatic animal movement. Specifically, he is interested in using acoustic telemetry to answer novel questions about movement to further our understanding and develop management strategies for aquatic species."
     },
      {
         name: "Madelyn Richardson",
