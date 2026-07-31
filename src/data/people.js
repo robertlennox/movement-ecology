@@ -39,7 +39,7 @@ export const people = [
         contact: "hugo@dal.ca",
         role: "Research Associate",
         status: "current",
-        photo: require("../assets/images/people/hugo.jpg"),
+        photo: require("../assets/images/people/hugo2.jpg"),
         bio: "Hugo’s research combines ecology, physiology, and technology to better understand aquatic ecosystems and inform their management. His work focuses the impacts that environmental and anthropocentric stressors have on the movement, behaviour, and health of fish. At the MER group, Hugo contributes to student mentoring, leads lab-based experiments, and helps coordinating fieldwork teams. Through his Adjunct Faculty status at Dalhousie, Hugo also contributes by attracting additional funding for projects. Recent projects span from exploring the sub-lethal impacts of tagging in fish, to understanding the impacts of pesticide applications on non-target aquatic species. Other interests include 3D design, 3D printing, electronics, and software development (e.g., trackyverse.org). If you want to know more about Hugo’s career and work, head over to his website at hugoflavio.com!"
     },
 

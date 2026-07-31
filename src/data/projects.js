@@ -47,19 +47,19 @@ export const projects = [
         date: "2026-01-01",
         people: ["Hugo Flavio", "Ethan McCarthy", "Ben Wetherell", "Robert Lennox"],
 
-        listImage: require('../assets/projects/nunatsiavut1.jpg'),
-        bannerImage: require('../assets/projects/margaree-proj1.jpg'),
+        listImage: require('../assets/projects/wf1.jpg'),
+        bannerImage: require('../assets/projects/wf3.JPG'),
         
-        image1: require('../assets/projects/margaree-proj1.jpg'),
+        image1: require('../assets/projects/wf3.JPG'),
         text1: "Atlantic whitefish (Coregonus huntsmani) is Nova Scotia’s most imperilled fish species, and is certainly one of the most threatened species in Canada. A key priority in the Recovery Strategy for Atlantic whitefish is to achieve stability in the current population. Broad strategies for recovery include 1) conserving, protecting and managing the species and its habitat and 2) addressing knowledge gaps relating to the species and its habitat. The current state of knowledge about the basic biology, ecology, and physiology of Atlantic whitefish is limited, as is knowledge about how best to address current and emergent threats to survival.  Knowledge of the optimal conditions for the deposition and development of eggs, as well as the growth of larvae will be extremely valuable to future recovery and management decisions. This project will combine in-situ and laboratory approaches to vastly expand our understanding of the factors influencing Atlantic whitefish egg and larvae success, therefore advancing both the conservation of natural nursery habitats and improving the supportive breeding program.",
         
-        image2: require('../assets/projects/margaree-proj2.jpg'),
+        image2: require('../assets/projects/wf1.jpg'),
         text2: "Second block of text. Text and images swap sides each block that gets added. You can add up to 5 blocks and have colelctions up to 10. Supports video and images.",
         
         collection: [
-          require('../assets/projects/margaree-collection1.png'),
-          require('../assets/projects/margaree-collection2.jpg'),
-          require('../assets/projects/margaree-collection3.mp4'),
+          require('../assets/projects/wf1.jpg'),
+          require('../assets/projects/wf2.jpeg'),
+          require('../assets/projects/wf3.JPG'),
         ],
     },
 
@@ -143,7 +143,10 @@ export const projects = [
         
         collection: [
           require('../assets/projects/mack2.jpg'),
-          require('../assets/projects/mack3.jpg'),
+          require('../assets/projects/mack10.mov'),
+          require('../assets/projects/mack11.mov'),
+          require('../assets/projects/mack12.jpeg'),
+          require('../assets/projects/mack14.jpg'),
           require('../assets/projects/mack1.jpg'),
         ],
     },
