@@ -19,17 +19,39 @@ function PublicationCard({ publication }) {
 }
 
 export default function Publications() {
-  let list = [...publications].sort((a, b) => b.date.localeCompare(a.date));
+  // Newest first
+  const sorted = [...publications].sort((a, b) => b.date.localeCompare(a.date));
+  const total = sorted.length;
+
+  // Group by year, preserving the newest-first order
+  const groups = [];
+  sorted.forEach((pub, i) => {
+    const year = pub.date.slice(0, 4);
+    const number = total - i; // count up from the oldest at the bottom
+    let group = groups.find((g) => g.year === year);
+    if (!group) {
+      group = { year, items: [] };
+      groups.push(group);
+    }
+    group.items.push({ ...pub, number });
+  });
 
   return (
     <div className="page-offset">
       <Container className="py-5">
         <div className="eyebrow mb-2">In Media</div>
         <h1 className="mb-4">Publications</h1>
-        {list.length === 0 ? (
+        {groups.length === 0 ? (
           <p className="text-secondary">No publications to show yet.</p>
         ) : (
-          list.map((p) => <PublicationCard key={p.title} publication={p} />)
+          groups.map((group) => (
+            <section key={group.year} className="mb-5">
+              <h2 className="pub-year">{group.year}</h2>
+              {group.items.map((p) => (
+                <PublicationCard key={p.number} publication={p} number={p.number} />
+              ))}
+            </section>
+          ))
         )}
       </Container>
     </div>

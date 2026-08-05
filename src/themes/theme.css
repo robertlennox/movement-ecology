@@ -274,8 +274,9 @@ h1, h2, h3, h4, h5, .display-1, .display-2, .display-3 {
 .publication-row__img {
   flex: 0 0 240px;
   width: 240px;
+  height: 240px;
   object-fit: cover;
-  align-self: stretch;
+  align-self: flex-start;
 }
 .publication-row__body { padding: 1.1rem 1.25rem; }
 .publication-row__title { margin: 0; font-size: 1.5rem; }
