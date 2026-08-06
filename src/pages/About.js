@@ -5,7 +5,7 @@ export default function About() {
     <div className="page-offset">
       <Container className="py-5" style={{ maxWidth: 820 }}>
         <div className="eyebrow mb-2">About us</div>
-        <h1 className="mb-4">About the Lab</h1>
+        <h1 className="mb-4">About the research group</h1>
         <p className="lead text-secondary">
           Placeholder for the main copy here.
         </p>

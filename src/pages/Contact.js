@@ -12,7 +12,7 @@ export default function Contact() {
         <ul className="list-unstyled">
           <li>Department of Biology, Dalhousie University</li>
           <li>Halifax, Nova Scotia, Canada</li>
-          <li><a href="mailto:robert.lennox@dal.ca">robert.lennox@dal.ca</a></li>
+          <li><a href="mailto:lennox@dal.ca">lennox@dal.ca</a></li>
         </ul>
       </Container>
     </div>
