@@ -139,7 +139,7 @@ export const people = [
                 contact: "",
         role: "MSc student",
         status: "current",
-        photo: require("../assets/images/people/rob-7.jpg"),
+        photo: require("../assets/images/people/mel.jpg"),
         bio: "Melina is a MSc student in the Movement and Ecophysiology Research Group (MER), where she studies the physiology and movement ecology of fishes with a goal of informing sustainable fisheries management and conservation. Her master’s research investigates the multi-year spatial and temporal movements of striped bass (Morone saxatilis) fitted with acoustic tags in the Miramichi River and the southern Gulf of St. Lawrence (sGSL). Her project is complemented by blood sampling, which will enable genetic analyses of the pathogens encountered by striped bass. Because the spatiotemporal movements of striped bass remain poorly understood, Melina aims to address these knowledge gaps to support the effective management of the sGSL striped bass population. Melina’s interest in physiology was sparked during her honours project with the MER group, where she investigated the changes in oxygen consumption of non-target Great Lakes fishes exposed to TFM lampricide. This research will contribute to the sustainable use of lampricides within the Great Lakes. In her free time Melina enjoys listening to music, dancing, going to the movies, reading, hiking, and being outdoors."
     },
 
@@ -250,7 +250,7 @@ export const people = [
         name: "Melina Göbel",
         role: "Honours thesis student",
         status: "alumni",
-        photo: require("../assets/images/people/rob-7.jpg"),
+        photo: require("../assets/images/people/mel.jpg"),
         bio: "Melina is now completing her Master's thesis with MER group."
     },
 
