@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/movement-ecology/static/css/main.33991d20.css",
-    "main.js": "/movement-ecology/static/js/main.c44082a1.js",
+    "main.js": "/movement-ecology/static/js/main.29f77820.js",
     "static/media/hero.mp4": "/movement-ecology/static/media/hero.871290bf986802d9a469.mp4",
     "static/media/mack10.mov": "/movement-ecology/static/media/mack10.6b455a70df6d580a0fcd.mov",
     "static/media/caliyena.png": "/movement-ecology/static/media/caliyena.a3d7a7310e99147a673e.png",
@@ -12,11 +12,11 @@
     "static/media/margaree-collection1.png": "/movement-ecology/static/media/margaree-collection1.bf03b287f7cf561dd71b.png",
     "static/media/levi.jpg": "/movement-ecology/static/media/levi.c11b1f549e6b8379bf91.jpg",
     "static/media/imogen.jpg": "/movement-ecology/static/media/imogen.3ad17fae3ef683af628d.jpg",
+    "static/media/madelyn.PNG": "/movement-ecology/static/media/madelyn.b602e618fd7524b84c0a.PNG",
     "static/media/mack13.jpeg": "/movement-ecology/static/media/mack13.3a41f0520d36a7f3b2ce.jpeg",
     "static/media/ava.jpeg": "/movement-ecology/static/media/ava.8b7f6a60220285463604.jpeg",
     "static/media/margaree-proj2.jpg": "/movement-ecology/static/media/margaree-proj2.ffc0dad88712c12e78c8.jpg",
     "static/media/mack12.jpeg": "/movement-ecology/static/media/mack12.fd63d0ae4fa4af9efa50.jpeg",
-    "static/media/hugo2.jpg": "/movement-ecology/static/media/hugo2.21d387c04113cd0b3dab.jpg",
     "static/media/wf2.jpeg": "/movement-ecology/static/media/wf2.72f092f2bc1e671dfabd.jpeg",
     "static/media/danielle.jpg": "/movement-ecology/static/media/danielle.9f206a2814ce9d4728f3.jpg",
     "static/media/halibut1.jpg": "/movement-ecology/static/media/halibut1.8953f3e59408e78f18ad.jpg",
@@ -37,10 +37,12 @@
     "static/media/pei1.JPG": "/movement-ecology/static/media/pei1.ca3f2554c9c49b6d9bb0.JPG",
     "static/media/debert1.jpg": "/movement-ecology/static/media/debert1.d2f618257b945dd317f2.jpg",
     "static/media/emma.jpg": "/movement-ecology/static/media/emma.8998d6f02b76c992414e.jpg",
+    "static/media/Hugo2.png": "/movement-ecology/static/media/Hugo2.f01c096fee71d3dc7c5e.png",
     "static/media/cb2.JPG": "/movement-ecology/static/media/cb2.798e93b20f456d7ca5d4.JPG",
     "static/media/margaree-proj1.jpg": "/movement-ecology/static/media/margaree-proj1.e5fa9440068ff5f71cfe.jpg",
     "static/media/cb3.JPG": "/movement-ecology/static/media/cb3.9bbf9155bc0d7660325f.JPG",
     "static/media/blenkje.jpg": "/movement-ecology/static/media/blenkje.5ac8b2aa44b0e939fb82.jpg",
+    "static/media/emmad.jpg": "/movement-ecology/static/media/emmad.136eb5588462e85fe3a7.jpg",
     "static/media/margaree1.jpg": "/movement-ecology/static/media/margaree1.674ba631e11d3a3bba23.jpg",
     "static/media/aurland2.JPG": "/movement-ecology/static/media/aurland2.aaabc86a68bde17b3445.JPG",
     "static/media/jena.jpg": "/movement-ecology/static/media/jena.de416bf1642a0b3b17cd.jpg",
@@ -77,6 +79,7 @@
     "static/media/nunatsiavut5.jpg": "/movement-ecology/static/media/nunatsiavut5.e2b9c1b3a326894bf1fc.jpg",
     "static/media/tail.jpg": "/movement-ecology/static/media/tail.536b580ede9916c5bf9e.jpg",
     "static/media/morgan.jpg": "/movement-ecology/static/media/morgan.ac290157da6d66674bff.jpg",
+    "static/media/benw.jpg": "/movement-ecology/static/media/benw.3471b461d0a157912eeb.jpg",
     "static/media/minnows.JPG": "/movement-ecology/static/media/minnows.99697d5d4a548eef95a9.JPG",
     "static/media/grayling.jpg": "/movement-ecology/static/media/grayling.ead919053057d1d76779.jpg",
     "static/media/snapper.JPG": "/movement-ecology/static/media/snapper.d228ae3b30eb871a5417.JPG",
@@ -93,10 +96,10 @@
     "static/media/whales.jpg": "/movement-ecology/static/media/whales.3533bf3f8f52dffa2f81.jpg",
     "index.html": "/movement-ecology/index.html",
     "main.33991d20.css.map": "/movement-ecology/static/css/main.33991d20.css.map",
-    "main.c44082a1.js.map": "/movement-ecology/static/js/main.c44082a1.js.map"
+    "main.29f77820.js.map": "/movement-ecology/static/js/main.29f77820.js.map"
   },
   "entrypoints": [
     "static/css/main.33991d20.css",
-    "static/js/main.c44082a1.js"
+    "static/js/main.29f77820.js"
   ]
 }
