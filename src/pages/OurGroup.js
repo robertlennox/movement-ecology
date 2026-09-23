@@ -26,6 +26,9 @@ function PersonCard({ person }) {
 }
 
 export default function OurGroup() {
+
+  let alumniList = [...alumni].sort((a, b) => a.name.localeCompare(b.name));
+
   return (
     <div className="page-offset">
       <Container className="py-5">
@@ -41,7 +44,7 @@ export default function OurGroup() {
           <>
             <h2 className="h4 text-brand-teal mt-4 mb-3">Alumni</h2>
             <Row>
-              {alumni.map((p) => <PersonCard key={p.name} person={p} />)}
+              {alumniList.map((p) => <PersonCard key={p.name} person={p} />)}
             </Row>
           </>
         )}
