@@ -23,7 +23,13 @@ export const people = [
         photo: require("../assets/images/people/pelley.jpg"),
         bio: "Boyd completed his honour's thesis in 2026."
     },
-
+    {
+        name: "Test Person",
+        role: "Testing",
+        status: "current",
+        photo: require("../assets/images/people/test-person.JPG"),
+        bio: "Hello world!"
+    },
       {
         name: "Robert Lennox",
                 contact: "lennox@dal.ca",
