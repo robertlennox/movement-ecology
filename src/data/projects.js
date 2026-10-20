@@ -17,21 +17,21 @@ TEMPLATE:
         date: "2026-01-01",
         people: [""],
 
-        listImage: require('../assets/projects/your-project/outer-image.jpg'),
-        bannerImage: require('../assets/projects/your-project/banner-image.jpg'),
+        listImage: require('../assets/projects/highlands-test/outer-image.jpg'),
+        bannerImage: require('../assets/projects/highlands-test/banner-image.jpg'),
         
-        image1: require('../assets/projects/your-project/image1.jpg'),
+        image1: require('../assets/projects/highlands-test/image1.jpg'),
         text1: "text",
         
-        image2: require('../assets/projects/your-project/image2.jpg'),
+        image2: require('../assets/projects/highlands-test/image2.jpg'),
         text2: "text",
 
         // FOLLOW SAME FORMAT FOR ADDING MORE IMAGE TEXT BLOCKS
         
         collection: [
-          require('../assets/projects/your-project/collection3.mp4'),
-          require('../assets/projects/your-project/collection1.png'),
-          require('../assets/projects/your-project/collection2.jpg'),
+          require('../assets/projects/highlands-test/collection3.mp4'),
+          require('../assets/projects/highlands-test/collection1.png'),
+          require('../assets/projects/highlands-test/collection2.jpg'),
           // FOLLOW SAME FORMAT AS ABOVE TO ADD MORE MEDIA
         ],
     },
