@@ -24,13 +24,7 @@ export const publications = [
     link: "",
     date: "2026-08-23"
   },
-  {
-    listImage: require('../assets/publications/horses2.JPG'),
-    title: "Testing adding a publication about horses in the highlands",
-    citation: "Person T",
-    link: "",
-    date: "2026-10-20"
-  },
+
   {
     listImage: require('../assets/projects/debert/debert2.jpg'),
     title: "Predation risk and depth use during migration of Atlantic salmon smolts through a fjord impacted by hydropower discharge",
